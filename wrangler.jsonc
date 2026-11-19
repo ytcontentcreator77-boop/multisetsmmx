@@ -22,7 +22,7 @@
   // At minute :07 of each hour it also runs cleanup (old webhook events, stale pending payments).
   "triggers": { "crons": ["* * * * *"] },
   "vars": {
-    "BOT_TOKEN":8398573807:AAGyq1WCdRK-E3h5MJJxCkuQBwOiB68KkwM",
+    "BOT_TOKEN": "8398573807:AAGyq1WCdRK-E3h5MJJxCkuQBwOiB68KkwM",
     // Optional: comma-separated Telegram user IDs that are always admins. More admins can be claimed or added in the app.
     "OWNER_IDS": "7062424671",
     // Local development only (set in .dev.vars). Must stay empty in production.
